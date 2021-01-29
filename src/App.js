@@ -6,7 +6,7 @@ import LoginForm from './components/LoginForm';
 
 class App extends Component
 {
-  UNSAFE_componentWillMounta(){
+  UNSAFE_componentWillMount(){
     firebase.initializeApp(
       {
         apiKey: "AIzaSyD7NUJaoPp8FoJOPxMugm3s0nbGws08uQA",
